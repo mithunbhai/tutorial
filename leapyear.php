@@ -4,17 +4,18 @@
 	 //$year = range (2000,2020); 
 
 {
-
+   for($year=2000;$year<=2020;$year++)
+	   
   if((($year % 4) == 0) && (($year % 100) != 0)) 
    {
-     echo $year. " is leap year <br> ";
+     echo $year. " is a leap year <br> ";
           
     }
 
 	 elseif ($year%400 == 0)
 	 {
 	 
-	    echo $year. " is leap year <br> ";
+	    echo $year. " is a leap year <br> ";
 	 
 	 }
      else
@@ -25,10 +26,7 @@
 
 }
 
-leapYear(2008);
-leapYear(2010);
-leapYear(2012);
-leapYear(2014);
+leapYear('$year');
 
 ?>
 
