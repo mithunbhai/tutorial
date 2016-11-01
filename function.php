@@ -2,9 +2,10 @@
 
 $globalName = "Zoe";
 
-function sayHello() {
-$localName = "Harry";
-echo "Hello, $localName!<br>";
+function sayHello()
+{
+    $localName = "Harry";
+    echo "Hello, $localName!<br>";
 }
 
 sayHello();
